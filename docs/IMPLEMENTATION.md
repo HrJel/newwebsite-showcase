@@ -1,5 +1,8 @@
 # Implementation notes — NewWebsite
 
+> **Repository update — 20 October 2026:** New, independently authored `index.html`, `app.js`, `theme.css`, `theme.json` and `_worker.js` files now exist in this public repository. They are **not** the original private web application, are **not** proven production deployed, and do **not** establish functional parity with the reviewed source. Historical claims of a documentation-only repository in older passages below describe the initial publication, not the current file inventory. See [current technical reference](TECHNICAL_REFERENCE.md), [feature evidence matrix](FEATURE_AND_RELEASE_MATRIX.md), and [security runbook](SECURITY_AND_OPERATIONS.md).
+
+
 ## Evidence ledger
 
 - Source tree has index.html, app.js, styles.css, multiple page folders, and _worker.js.
@@ -25,7 +28,7 @@ A multipage web experience with content routes, responsive front-end assets, and
 ## What this repository implements
 
 - Markdown documentation, project-level metadata, safe viewer mode classification and release checklists.
-- **No actual application runtime**, private source tree, database schema, email transport, credentials or deployment wiring.
+- **A new independent frontend and Worker source are now present**, but not original private client code, domain-specific production schemas, email transport, credentials or verified live deployment wiring.
 - **No real live preview** is wired without an approved separate demo endpoint.
 
 ## Mapping from source to public presentation
