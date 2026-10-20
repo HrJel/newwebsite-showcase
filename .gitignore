@@ -1,0 +1,16 @@
+# Confidential local artifacts and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+secrets.*
+credentials.*
+client-data/
+private/
+node_modules/
+.DS_Store
+__pycache__/
