@@ -1,5 +1,28 @@
 # NewWebsite — public portfolio showcase
 
+## Technical documentation (current audit)
+
+**Audit date:** 20 October 2026 · **Release classification:** not a verified complete production application.
+
+**Current GitHub state:** Independent public HTML/CSS/JavaScript content UI and Cloudflare Pages Worker files are committed; no production app or original-source parity is verified.
+
+**Source/stack evidence:** Static HTML/CSS/JS and Cloudflare Worker source reviewed separately; original portal, publishing and email systems are **not** included.
+
+**Cloudflare state:** The Pages project hosts an earlier documentation deployment. A site-specific Turnstile widget and a shared `AUTH_DB` D1 binding have been provisioned, but a working application deployment and admin sign-in have not been verified. Secret values must never be committed to this public repository.
+
+**Engineering documentation:**
+
+- **[Complete architecture, folder tree, languages, API contracts and backend connections](docs/TECHNICAL_REFERENCE.md)**
+- **[Features, actual implementation status and acceptance requirements](docs/FEATURE_AND_RELEASE_MATRIX.md)**
+- **[Authentication, Turnstile, security controls, deployment and operations runbook](docs/SECURITY_AND_OPERATIONS.md)**
+- [Source verification and NDA boundaries](docs/SOURCE_VERIFICATION.md)
+- [Existing platform/device support notes](docs/DEVICE_PREVIEW.md)
+
+All projects use the portfolio credit **[Developed and Designed by Jelvan®](https://portfolio.jelvan.pro)** for independently authored public work. This does not transfer ownership of third-party/client deliverables.
+
+---
+
+
 **Public website and edge-assisted web experience**  
 **Curated by Jelvan R. · Public documentation, not the original source repository.**
 
@@ -21,7 +44,7 @@ A multipage web experience with content routes, responsive front-end assets, and
 
 **Reference code examined; public presentation adapted. Live deployment and end-to-end behavior not independently verified.**
 
-This repository is **documentation-only**: it does not include an application build, genuine account access, production dependencies or a deployment artifact.
+This repository now includes **an independently authored application UI and Cloudflare Worker foundation**. It does not include the original client application, a validated production release, administrator secrets, or full application integrations.
 
 ### What the source documentation supports
 
@@ -69,7 +92,7 @@ Read the [device preview policy](docs/DEVICE_PREVIEW.md) before enabling live fr
 ## Known limitations
 
 - No verified production release or cross-device acceptance result is claimed.
-- Real portal, email, and authentication flows are not part of this public repository.
+- Original portal and email workflows are not part of this repository. A **new** authentication Worker source is present, but its live sign-in flow remains unverified.
 
 ## Repository contents
 
@@ -99,7 +122,7 @@ assets/README.md                Sanitized images/screenshot instructions
 
 ## Licensing and use
 
-This repository provides public-facing explanatory materials only. **Public visibility is not an open-source license or a grant of rights to confidential or third-party works.** Written permission and applicable rights are needed before reuse. No rights in third-party products, names, interfaces, libraries, or client materials are asserted.
+This repository provides independent public-facing explanatory materials and a newly authored prototype foundation. **Public visibility is not an open-source license or a grant of rights to confidential or third-party works.** Written permission and applicable rights are needed before reuse. No rights in third-party products, names, interfaces, libraries, or client materials are asserted.
 
 ## Contact
 
