@@ -1,5 +1,8 @@
 # Architecture — NewWebsite
 
+> **Repository update — 20 October 2026:** New, independently authored `index.html`, `app.js`, `theme.css`, `theme.json` and `_worker.js` files now exist in this public repository. They are **not** the original private web application, are **not** proven production deployed, and do **not** establish functional parity with the reviewed source. Historical claims of a documentation-only repository in older passages below describe the initial publication, not the current file inventory. See [current technical reference](TECHNICAL_REFERENCE.md), [feature evidence matrix](FEATURE_AND_RELEASE_MATRIX.md), and [security runbook](SECURITY_AND_OPERATIONS.md).
+
+
 ## Architecture status
 
 **Reference code examined; public presentation adapted. Live deployment and end-to-end behavior not independently verified.**
@@ -12,7 +15,7 @@ Visitor / Browser → Static pages and assets → Edge Worker (routing, selected
 
 ## Verified high-level design
 
-Static website assets and page routes are served through Cloudflare Pages advanced Worker mode. Protected routes are handled at the edge with server-side validation and secret bindings. The published showcase does not include real Worker source or authentication routes.
+Static website assets and page routes are served through Cloudflare Pages advanced Worker mode. Protected routes are handled at the edge with server-side validation and secret bindings. The public repository now includes a **new independently authored** Cloudflare Pages Worker and its authentication routes; these are not the original private Worker and have not completed live acceptance.
 
 ## Technology references
 
