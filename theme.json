@@ -1,0 +1,17 @@
+{
+  "title": "NewWebsite",
+  "eyebrow": "DIGITAL EXPERIENCE",
+  "sub": "The web, thoughtfully composed.",
+  "theme": "paper",
+  "accent": "#d7672a",
+  "background": "#faf7f2",
+  "surface": "#fffdf9",
+  "sidebar": "#f4eee5",
+  "fg": "#26211d",
+  "subfg": "#776b63",
+  "stroke": "#e4d8ca",
+  "btnfg": "#ffffff",
+  "border_radius": "11px",
+  "font": "Inter, system-ui, sans-serif",
+  "decor": "Editorial warmth and generous whitespace"
+}
