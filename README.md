@@ -1,3 +1,19 @@
+## Sign-in and protected workspace — 21 October 2026
+
+The independent NewWebsite repository includes an actual Cloudflare Pages authentication Worker and D1-backed synthetic content dashboard **in source**. Live sign-in, release promotion and original website portal parity have not been verified. These **illustrative UI previews are not screenshots of a live authenticated session**.
+
+![NewWebsite sign-in preview](assets/screenshots/login.svg)
+
+![NewWebsite content dashboard preview](assets/screenshots/dashboard.svg)
+
+**Implemented source features:** Turnstile-checked form, app-scoped server sessions, protected dashboard asset delivery, page record create/search/edit-status, per-user D1 workspace persistence, administrator account management and logout revocation.
+
+**Not yet integrated:** original content publication workflow, real editorial approval/rollback, media pipeline, contact mail delivery, release monitoring and acceptance testing.
+
+Review [staging configuration, security implementation and remaining risks](docs/APP_SECURITY_AND_SETUP.md) and [D1 schema](schema.sql) before connecting real users.
+
+---
+
 # NewWebsite — public portfolio showcase
 
 ## Technical documentation (current audit)

@@ -5,8 +5,8 @@
   "publicShowcase": true,
   "presentationOwner": "Jelvan R.",
   "unaffiliatedPublication": true,
-  "documentationOnly": true,
-  "sourceCodeIncluded": false,
+  "documentationOnly": false,
+  "sourceCodeIncluded": true,
   "productionEquivalent": false,
   "ndaAdapted": true,
   "lastReviewed": "2026-10-20",
@@ -40,5 +40,9 @@
     "allowOpenExternal": false,
     "allowCopyUrl": false,
     "previewFallback": "approved-local-screenshot-or-explanatory-placeholder"
+  },
+  "independentShowcaseApp": {
+    "sourceReviewed": "2026-10-21",
+    "productionAcceptanceVerified": false
   }
 }

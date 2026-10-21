@@ -30,6 +30,8 @@ const securityHeaders = (login=false) => ({
     : "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self'; form-action 'self'; frame-ancestors 'self' https://portfolio.jelvan.pro; base-uri 'none'",
   'X-Content-Type-Options': 'nosniff',
   'Referrer-Policy': 'no-referrer',
+  'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
   'X-Frame-Options': undefined,
   'Cache-Control': 'no-store',
   'X-Robots-Tag': 'noindex, nofollow, noarchive'
